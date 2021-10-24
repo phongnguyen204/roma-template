@@ -12916,6 +12916,11 @@ body .ui-wizard .ui-icon-arrowthick-1-e:before {
     margin-top: -126px;
 }
 
+:host ::ng-deep .menucus__UI {
+    margin-left: 57px;
+    margin-top: 0px;
+}
+
 :host ::ng-deep .personal {
     margin-top: 24px;
     width: 230px;
