@@ -25,7 +25,7 @@ import { AppConfigComponent } from "./app.config.component";
 import { MenuModule } from "primeng/menu";
 import { TieredMenuModule } from "primeng/tieredmenu";
 import { ButtonModule } from "primeng/button";
-import { FormLayoutComponent } from "./form-layout/form-layout.component";
+import { FormLayoutComponent } from "./form-layout/form-layout.component"; //XXXX
 import { InputTextModule } from "primeng/inputtext";
 import { TabViewModule } from "primeng/tabview";
 import { CodeHighlighterModule } from "primeng/codehighlighter";
@@ -33,12 +33,24 @@ import { RadioButtonModule } from "primeng/radiobutton";
 import { InputTextareaModule } from "primeng/inputtextarea";
 import { DropdownModule } from "primeng/dropdown";
 import { CheckboxModule } from "primeng/checkbox";
-// import { RippleModule } from 'primeng/ripple';
-import {ChartModule} from 'primeng/chart';
+import { ChartModule } from "primeng/chart";
+import { ProgressBarModule } from "primeng/progressbar";
+import { CardModule } from "primeng/card";
 
-import {ProgressBarModule} from 'primeng/progressbar';
+// importcomponent
+import { FloatLabelComponent } from "./float-label/float-label.component";
+import { InputLayoutComponent } from "./input-layout/input-layout.component";
+
 @NgModule({
-    declarations: [AppComponent, HomeComponent, AppConfigComponent, FormLayoutComponent],
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        AppConfigComponent,
+        FormLayoutComponent,
+        FloatLabelComponent,
+        InputLayoutComponent
+    ],
+    
     imports: [
         FormsModule,
         ReactiveFormsModule,
@@ -60,7 +72,8 @@ import {ProgressBarModule} from 'primeng/progressbar';
         DropdownModule,
         FormsModule,
         ChartModule,
-        ProgressBarModule
+        ProgressBarModule,
+        CardModule,
     ],
     providers: [
         { provide: LocationStrategy, useClass: HashLocationStrategy },

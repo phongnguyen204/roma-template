@@ -152,6 +152,7 @@ export class AppComponent implements OnInit {
                         label: "Notifications",
                         icon: "pi pi-bell",
                     },
+
                 ],
             },
         ];
@@ -160,6 +161,7 @@ export class AppComponent implements OnInit {
                 items: [
                     {
                         label: "Bithika Abhedananda User interface review is done.",
+
                     },
                     {
                         label: "Dai Jiang Uh, we have sort of a problem here.",
@@ -169,293 +171,214 @@ export class AppComponent implements OnInit {
                     },
                     {
                         label: "Please check the files",
+                        
                     },
+
                 ],
             },
         ];
 
+
         this.menuSideBarFavorites = [
             {
-                label: "Dashboard",
-                icon: "pi pi-fw pi-home",
-            },
-            //    items:[
-            //       {
-            //          label:'New',
-            //          icon:'pi pi-fw pi-plus',
-            //          items:[
-            //             {
-            //                label:'Bookmark',
-            //                icon:'pi pi-fw pi-bookmark'
-            //             },
-            //             {
-            //                label:'Video',
-            //                icon:'pi pi-fw pi-video'
-            //             },
-
-            //          ]
-            //       },
-            //       {
-            //          label:'Delete',
-            //          icon:'pi pi-fw pi-trash'
-            //       },
-            //       {
-            //          separator:true
-            //       },
-            //       {
-            //          label:'Export',
-            //          icon:'pi pi-fw pi-external-link'
-            //       }
-            //    ]
-            // },
-            // {
-            //    label:'Edit',
-            //    icon:'pi pi-fw pi-pencil',
-            //    items:[
-            //       {
-            //          label:'Left',
-            //          icon:'pi pi-fw pi-align-left'
-            //       },
-            //       {
-            //          label:'Right',
-            //          icon:'pi pi-fw pi-align-right'
-            //       },
-            //       {
-            //          label:'Center',
-            //          icon:'pi pi-fw pi-align-center'
-            //       },
-            //       {
-            //          label:'Justify',
-            //          icon:'pi pi-fw pi-align-justify'
-            //       },
-
-            //    ]
-            // },
-            // {
-            //    label:'Users',
-            //    icon:'pi pi-fw pi-user',
-            //    items:[
-            //       {
-            //          label:'New',
-            //          icon:'pi pi-fw pi-user-plus',
-
-            //       },
-            //       {
-            //          label:'Delete',
-            //          icon:'pi pi-fw pi-user-minus',
-
-            //       },
-            //       {
-            //          label:'Search',
-            //          icon:'pi pi-fw pi-users',
-            //          items:[
-            //             {
-            //                label:'Filter',
-            //                icon:'pi pi-fw pi-filter',
-            //                items:[
-            //                   {
-            //                      label:'Print',
-            //                      icon:'pi pi-fw pi-print'
-            //                   }
-            //                ]
-            //             },
-            //             {
-            //                icon:'pi pi-fw pi-bars',
-            //                label:'List'
-            //             }
-            //          ]
-            //       }
-            //    ]
-            // },
-            // {
-            //    label:'Events',
-            //    icon:'pi pi-fw pi-calendar',
-            //    items:[
-            //       {
-            //          label:'Edit',
-            //          icon:'pi pi-fw pi-pencil',
-            //          items:[
-            //             {
-            //                label:'Save',
-            //                icon:'pi pi-fw pi-calendar-plus'
-            //             },
-            //             {
-            //                label:'Delete',
-            //                icon:'pi pi-fw pi-calendar-minus'
-            //             },
-
-            //          ]
-            //       },
-            //       {
-            //          label:'Archieve',
-            //          icon:'pi pi-fw pi-calendar-times',
-            //          items:[
-            //             {
-            //                label:'Remove',
-            //                icon:'pi pi-fw pi-calendar-minus'
-            //             }
-            //          ]
-            //       }
-            //    ]
-            // },
-            // {
-            //    separator:true
-            // },
-            // {
-            //    label:'Quit',
-            //    icon:'pi pi-fw pi-power-off'
-            // }
+                label: 'Dashboard',
+                icon: 'pi pi-fw pi-home',
+            }
         ];
+
 
         this.menuSideBarUI = [
             {
-                label: "Form Layout",
+                label: 'Form Layout',
                 icon: "pi pi-fw pi-id-card",
-                routerLink: ["form-layout"],
+                routerLink: ['form-layout']
             },
             {
-                label: "input",
-                icon: "pi pi-fw pi-check-square",
+                label: 'input',
+                icon: 'pi pi-fw pi-check-square',
+                routerLink: ['input-layout']
+
             },
             {
-                label: "Float Label",
-                icon: "pi pi-bookmark",
+                label: 'Float Label',
+                icon: 'pi pi-bookmark',
+                routerLink: ['float-label']
+                
             },
             {
-                label: "Invalid State",
-                icon: "pi pi-exclamation-circle",
+                label: 'Invalid State',
+                icon: 'pi pi-exclamation-circle',
+
             },
             {
-                label: "Button",
-                icon: "pi pi-fw pi-mobile",
+                label: 'Button',
+                icon: 'pi pi-fw pi-mobile',
+
             },
             {
-                label: "Table",
-                icon: "pi pi-fw pi-table",
+                label: 'Table',
+                icon: 'pi pi-fw pi-table',
+
             },
             {
-                label: "List",
-                icon: "pi pi-fw pi-list",
+                label: 'List',
+                icon: 'pi pi-fw pi-list',
+
             },
             {
-                label: "Tree",
-                icon: "pi pi-fw pi-share-alt",
+                label: 'Tree',
+                icon: 'pi pi-fw pi-share-alt',
+
             },
             {
-                label: "Panel",
-                icon: "pi pi-fw pi-tablet",
+                label: 'Panel',
+                icon: 'pi pi-fw pi-tablet',
+
             },
             {
-                label: "Overlay",
-                icon: "pi pi-fw pi-clone",
+                label: 'Overlay',
+                icon: 'pi pi-fw pi-clone',
+
             },
             {
-                label: "Media",
-                icon: "pi pi-fw pi-image",
+                label: 'Media',
+                icon: 'pi pi-fw pi-image',
+
             },
             {
-                label: "Menu",
-                icon: "pi pi-fw pi-bars",
+                label: 'Menu',
+                icon: 'pi pi-fw pi-bars',
+
             },
             {
-                label: "Message",
-                icon: "pi pi-fw pi-comment",
+                label: 'Message',
+                icon: 'pi pi-fw pi-comment',
+
             },
             {
-                label: "File",
-                icon: "pi pi-fw pi-file",
+                label: 'File',
+                icon: 'pi pi-fw pi-file',
+
             },
             {
-                label: "Chart",
-                icon: "pi pi-fw pi-chart-bar",
+                label: 'Chart',
+                icon: 'pi pi-fw pi-chart-bar',
+
             },
             {
-                label: "Misc",
-                icon: "pi pi-fw pi-circle-off",
+                label: 'Misc',
+                icon: 'pi pi-fw pi-circle-off',
+
             },
+
         ];
         this.menuSideBarUtilities = [
             {
-                label: "Display",
+                label: 'Display',
                 icon: "pi pi-fw pi-desktop",
             },
             {
-                label: "Elevation",
-                icon: "pi pi-fw pi-external-link",
+                label: 'Elevation',
+                icon: 'pi pi-fw pi-external-link',
+
             },
             {
-                label: "FlexBox",
-                icon: "pi pi-fw pi-directions",
+                label: 'FlexBox',
+                icon: 'pi pi-fw pi-directions',
+
             },
             {
-                label: "Text",
-                icon: "pi pi-fw pi-search",
+                label: 'Text',
+                icon: 'pi pi-fw pi-search',
+
             },
             {
-                label: "Widgets",
-                icon: "pi pi-fw pi-star-o",
+                label: 'Widgets',
+                icon: 'pi pi-fw pi-star-o',
+
             },
             {
-                label: "Grid System",
-                icon: "pi pi-fw pi-th-large",
+                label: 'Grid System',
+                icon: 'pi pi-fw pi-th-large',
+
             },
             {
-                label: "Spacing",
-                icon: "pi pi-fw pi-arrow-right",
+                label: 'Spacing',
+                icon: 'pi pi-fw pi-arrow-right',
+
             },
             {
-                label: "Typography",
-                icon: "pi pi-fw pi-align-center",
+                label: 'Typography',
+                icon: 'pi pi-fw pi-align-center',
+
             },
+
+
         ];
         this.menuSideBarPages = [
             {
-                label: "Crud",
+                label: 'Crud',
                 icon: "pi pi-fw pi-pencil",
             },
             {
-                label: "Calendar",
-                icon: "pi pi-fw pi-calendar-plus",
+                label: 'Calendar',
+                icon: 'pi pi-fw pi-calendar-plus',
+
             },
             {
-                label: "Timeline",
-                icon: "pi pi-fw pi-calendar",
+                label: 'Timeline',
+                icon: 'pi pi-fw pi-calendar',
+
             },
             {
-                label: "Landing",
-                icon: "pi pi-fw pi-globe",
+                label: 'Landing',
+                icon: 'pi pi-fw pi-globe',
+
             },
             {
-                label: "Login",
-                icon: "pi pi-fw pi-sign-in",
+                label: 'Login',
+                icon: 'pi pi-fw pi-sign-in',
+
             },
             {
-                label: "Error",
-                icon: "pi pi-fw pi-exclamation-triangle",
+                label: 'Error',
+                icon: 'pi pi-fw pi-exclamation-triangle',
+
             },
             {
-                label: "404",
-                icon: "pi pi-fw pi-times",
+                label: '404',
+                icon: 'pi pi-fw pi-times',
+
             },
             {
-                label: "Access Denied",
-                icon: "pi pi-fw pi-ban",
+                label: 'Access Denied',
+                icon: 'pi pi-fw pi-ban',
+
             },
             {
-                label: "Empty",
-                icon: "pi pi-fw pi-clone",
+                label: 'Empty',
+                icon: 'pi pi-fw pi-clone',
+
             },
+
+
         ];
         this.menuSideBarbuynow = [
             {
-                label: "Buy Now",
+                label: 'Buy Now',
                 icon: "pi pi-fw pi-shopping-cart",
             },
             {
-                label: "Documentation",
-                icon: "pi pi-fw pi-info-circle",
+                label: 'Documentation',
+                icon: 'pi pi-fw pi-info-circle',
+
             },
+
+
+
         ];
+
+
     }
 
     onAnimationStart(event) {
